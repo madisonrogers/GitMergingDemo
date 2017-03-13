@@ -22,7 +22,7 @@ public class TheMotivator {
 			System.out.println("You stayed in bed all day");
 	}
 	
-	public void eatFoor(int num)
+	public void eatFood(int num)
 	{
 		if (num == 100)
 			System.out.println("You ate a salad");
@@ -37,7 +37,7 @@ public class TheMotivator {
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.activity(60);
-		tm.eatFoor(80);
+		tm.eatFood(80);
 		tm.feedback(60);
 	}
 }
