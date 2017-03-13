@@ -34,8 +34,14 @@ public class TheMotivator {
 			System.out.println("You ate ice cream");
 	}
 	
+	public void printHeader(String name)
+	{
+		System.out.println("Daily activities");
+	}
+	
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
+		tm.printHeader("Maddie's");
 		tm.activity(60);
 		tm.eatFood(80);
 		tm.feedback(60);
