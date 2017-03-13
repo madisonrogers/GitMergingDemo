@@ -37,7 +37,7 @@ public class TheMotivator {
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.activity(60);
-		tm.eatFoor(60);
+		tm.eatFoor(80);
 		tm.feedback(60);
 	}
 }
