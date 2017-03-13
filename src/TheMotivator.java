@@ -22,9 +22,22 @@ public class TheMotivator {
 			System.out.println("You stayed in bed all day");
 	}
 	
+	public void eatFoor(int num)
+	{
+		if (num == 100)
+			System.out.println("You ate a salad");
+		else if (num > 90)
+			System.out.println("You ate a sandwich");
+		else if (num > 60)
+			System.out.println("You ate a burger");
+		else
+			System.out.println("You ate ice cream");
+	}
+	
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.activity(60);
+		tm.eatFoor(60);
 		tm.feedback(60);
 	}
 }
