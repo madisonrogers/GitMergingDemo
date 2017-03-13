@@ -36,7 +36,7 @@ public class TheMotivator {
 	
 	public void printHeader(String name)
 	{
-		System.out.println("Daily activities");
+		System.out.println(name + " activities for the day");
 	}
 	
 	public static void main(String[] args) {
