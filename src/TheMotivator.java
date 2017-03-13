@@ -41,7 +41,7 @@ public class TheMotivator {
 	
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
-		tm.printHeader("Madison");
+		tm.printHeader("Madison Rogers");
 		tm.activity(70);
 		tm.eatFood(90);
 		tm.feedback(70);
